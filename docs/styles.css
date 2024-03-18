@@ -1,0 +1,30 @@
+.navbar-nav > li {
+    display: inline-block;
+    margin-right: 20px; /* Añade separación entre las opciones */
+  }
+  
+  .navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #222; /* Fondo más oscuro */
+  }
+  
+  .navbar-nav > li > a {
+    color: white; /* Texto en blanco */
+    text-decoration: none; /* Evita el subrayado */
+  }
+  
+  .navbar-nav > li.active > a {
+    color: white; /* Texto en blanco cuando se selecciona */
+  }
+  
+  /* Agrega un margen superior al contenido principal */
+  .content-container {
+    margin-top: 70px; /* Ajusta el valor según sea necesario */
+  } 
+  .img{
+    max-width: 75%;
+    height: auto;
+  }
